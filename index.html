@@ -1,63 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Awesome Books</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
-</head>
+    <title>Awesome books</title>
 
-<body>
-    <nav>
-        <div class="nav-title">
-            Awesome Books
-        </div>
-        <div class="nav-list">
-            <ul class="nav-ul">
-                <li class="list-item">List |</li>
-                <li class="list-item">Add New |</li>
-                <li class="list-item">Contact</li>
-            </ul>
-        </div>
-    </nav>
-    <div class="date-time"></div>
-    <div class="all-books">
-        <h2 class="title-list-books">All awesome books</h2>
-        <div class="list-books">
-        </div>
+   
+  </head>
+ 
+  
+
+  <body>
+    
+    <header>
+      <nav id="nav_bar">
+        <h1 id="first_heading">Awesome Books</h1>
+        <ul class="nav-list">
+          <li><a href="#book-list" id="display_list">List</a></li>
+          <li><a href="#form" id="display_form">Add new</a></li>
+          <li><a href="#contact" id="display_contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+  </header>
+  <section class="book-list" id="book-list"></section>
+
+    <div id="posts">
+        <div class="container-books">
+            <br>
+            <div id="book-text">
+                <div class="wrapper"></div>
+              
+             </div>   
+            </div>
+         
+       
     </div>
-    <div class="add-book hidden">
-        <h2 class="title-form-add">Add a new book</h2>
-        <form class="form-input">
-            <ul>
-                <li>
-                    <input type="text" name="title" placeholder="Title" required />
-                </li>
-                <li>
-                    <input type="text" name="author" placeholder="Author" required />
-                </li>
-                <li>
-                    <button type="submit">Add</button>
-                </li>
-            </ul>
+
+    
+    <div class="container">
+      <h3>Add a new book</h3>
+      <div class="left">
+        <form id="form">
+ 
+          
+          <br>
+          <input name="" class="Title" cols="30" rows="10" placeholder="Title"></input>
+          <br />
+          <br />
+          <input name="" class="Author" cols="30" rows="10" placeholder="Author"></input>
+          <br>
+          <div id="msg"></div>
+          <button type="submit" class="btn">Add</button>
         </form>
+        
+      </div>
+      
+       
+        
     </div>
-    <div class="contact hidden">
-        <h2 class="title-contact">Contact Information</h2>
-        <p>Do you have any questions or you just want to say "Hello"?</p>
-        <p>You can reach out to us!</p>
-        <div class="contact-details">
-            <span class="contact-list">* Our email: mail@mail.com</span>
-            <span class="contact-list">* Our phone number: 1234567</span>
-            <span class="contact-list">* Our address: Streetname 123 City, Country</span>
-        </div>
-    </div>
+    <section id="contact"></section>
     <footer>
-        <span>Copyright</span>
-    </footer>
-    <script src='index.js'></script>
-</body>
+      <p>Copyright ...</p>
+  </footer>
 
+   
+  </body>
+  <script  type="module" src="index.js" ></script>
 </html>

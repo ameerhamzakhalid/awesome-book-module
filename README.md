@@ -48,7 +48,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [awesome-books] <a name="awesome-books"></a>
 A simple site to keep a record of awesome books.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -138,9 +138,9 @@ Example:
 
 👤 **Hamza**
 
-- GitHub: [@githubhandle](https://github.com/)
-- Twitter: [@twitterhandle](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/)
+- GitHub: [@ameerhamzakhalid](https://github.com/ameerhamzakhalid)
+- Twitter: [@twitterhandle](https://twitter.com/ameeerhamza1997)
+- LinkedIn: [Ameer Hamza](https://www.linkedin.com/in/choudhary-hamza-37b17a141/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

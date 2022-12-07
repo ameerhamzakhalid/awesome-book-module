@@ -1,158 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-
-html,
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  width: 100%;
-  padding: 0.2rem;
+* {
+  padding: 0;
   margin: 0;
-  font-family: 'Quicksand', 'Courier New', Courier, monospace;
   box-sizing: border-box;
-  color: #333;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
+body {
+  font-family: sans-serif;
+  background-color: rgb(127, 145, 204);
+}
+
+.container {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  bottom: 25%;
+}
+
+.btn {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.wrapper {
+  display: flex;
+  background: #f0f4e5;
+  width: 100%;
+  height: 42px;
+  margin-top: 1rem;
+  justify-content: space-around;
+  align-items: center;
 }
 
 nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 2px rgb(8, 33, 114) solid;
-  padding: 10px;
-  max-width: 40rem;
-  margin: 0 auto;
-  width: 90%;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-.nav-ul {
+ul {
   display: flex;
-  padding: 0;
-  margin: 0;
 }
 
-.list-item {
-  padding: 0.2rem;
-  margin: 0;
-  cursor: pointer;
+ul li {
+  list-style-type: none;
 }
 
-.list-item:hover {
-  color: #7af135;
-}
-
-li {
-  display: flex;
-  justify-content: flex-end;
-  margin: 0;
-  margin-bottom: 1rem;
-}
-
-.contact-details {
-  list-style: circle;
-  margin-top: 2rem;
-}
-
-span {
-  display: block;
-}
-
-button {
-  background: #0b912c;
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 1px;
-  padding: 0.4rem;
-  border: 0;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
-input {
-  padding: 0.3rem;
-  width: 100%;
-  border: 0.125rem rgb(15, 23, 177) solid;
-  border-radius: 0.25rem;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-tr:nth-child(even) {
-  background-color: lightgray;
-}
-
-.all-books,
-.add-book {
-  display: block;
-  width: 90%;
-  max-width: 32rem;
-}
-
-.list-books {
-  border: 0.125rem solid #333;
-  border-radius: 0.25rem;
-  max-width: 32rem;
-  margin: 0 auto;
-  margin-bottom: 4rem;
-}
-
-.book-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem;
-}
-
-.title-list-books,
-.title-form-add,
-.title-contact {
-  text-align: center;
-  color: #220f92;
-}
-
-.form-input {
-  margin: 0 auto;
-  max-width: 26rem;
-  box-sizing: border-box;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 32rem;
-}
-
-.contact > p {
-  padding: 0;
-  margin: 0;
-  align-self: flex-start;
-}
-
-.title-contact {
-  margin-bottom: 3rem;
+ul li a {
+  text-decoration: none;
+  color: rgb(246, 248, 246);
+  padding: 20px;
 }
 
 footer {
-  display: flex;
-  align-self: flex-end;
-  border: 2px rgb(9, 51, 167) solid;
-  padding: 10px;
-  max-width: 40rem;
-  margin: 0 auto;
-  width: 90%;
+  background-color: rgb(90, 103, 224);
+  margin-bottom: 12px;
+  width: 100%;
+  font-family: Calibri, sans-serif;
+  border: 2px solid rgb(245, 242, 242);
+  position: fixed;
+  bottom: -11px;
+  padding: 15px;
+  color: black;
 }
 
-.hidden {
-  display: none;
+.date {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
 }
